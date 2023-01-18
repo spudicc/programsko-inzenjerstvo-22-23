@@ -1,12 +1,14 @@
 package model;
 
 public class Employee {
-    public String name;
-    public int salary;
+    private String name;
+    private int salary;
 
-    public Employee(String name, int salary) {
+    public int profit;
+
+    public Employee(String name) {
         this.name = name;
-        this.salary = salary;
+        profit = 0;
     }
 
     public String getName() {

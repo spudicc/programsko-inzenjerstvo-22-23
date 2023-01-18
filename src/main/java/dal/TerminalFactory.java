@@ -1,7 +1,7 @@
 package dal;
 
 public class TerminalFactory {
-    public Terminal getTerminal() {
+    public static Terminal getTerminal() {
         return new Terminal();
     }
 }
